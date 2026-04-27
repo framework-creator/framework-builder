@@ -1,0 +1,439 @@
+{
+  "framework_identity": {
+    "author": "Mike Goetz / RageDesigner",
+    "license": "MIT",
+    "source_library": "RageDesigner SIOS Framework Library (700+ frameworks)",
+    "example_status": "Public example framework. One of several open-sourced from the RageDesigner library to demonstrate framework architecture for film, audio, and post-production work.",
+    "learn_more": "https://whatisaframework.com"
+  },
+  "framework_id": "FRAMEWORK-RENDER-004",
+  "name": "RENDER Audio-Visual Production Intelligence v1.0",
+  "version": "1.1",
+  "created": "2026-04-14",
+  "updated": "2026-04-15",
+  "status": "production_ready",
+  "category": "Creative Production - Audio-Visual Integration Layer",
+  "series": "VIDEO",
+  "companion_to_concepts": [
+    "Animated video production pipeline frameworks",
+    "Visual pattern libraries for motion design",
+    "Art direction integration protocols"
+  ],
+  "synopsis": "RENDER-004 closes the three critical gaps between HTML animation and professional ad production: audio-first timeline construction, multi-track sound design, and kinetic typography vocabulary. The core inversion: professional production builds animation TO audio, not audio TO animation. Measure voiceover duration first, then set CSS animation-delay values from audio landmarks. This single change turns timing guesswork into frame-precise choreography. Combined with FFmpeg multi-track audio mixing and five CSS kinetic typography patterns, RENDER-004 upgrades the pipeline from silent data graphics to complete ads with voice, music, sound effects, and cinematic text treatment. Production time for a complete 15-30 second ad with full audio: under 5 minutes.",
+  "origin": "April 14, 2026 production session. Built token economics data infographic and narrative interface animation. Gap analysis revealed audio synchronization, multi-track mixing, and kinetic typography as the three highest-impact missing capabilities. Research validated all three are achievable with existing tool stack (ElevenLabs MCP + FFmpeg + CSS).",
+  "layer_1_principles": [
+    {
+      "principle": "Audio-First Timeline Inversion",
+      "description": "Professional video production builds visuals to audio, not the reverse. Record the voiceover first. Measure its duration. Identify audio landmarks (sentence breaks, emphasis words, pauses). Map CSS animation-delay values to those landmarks. The audio IS the timeline. CSS is the choreography that follows it.",
+      "evidence": "RENDER-001 Phase N prescribes script writing but does not enforce audio-first sequencing. Every production run that built animation first required retiming. Audio-first eliminates retiming entirely.",
+      "anti_pattern": "Building a 12-second animation, then recording voiceover, then discovering the VO is 18 seconds and the animation needs restructuring."
+    },
+    {
+      "principle": "Sound Design Is Not Optional",
+      "description": "Silent animations are graphics. Animations with voiceover are explainers. Animations with voiceover plus music bed plus sound effects are ads. The difference between each tier is not quality of animation. It is presence of sound. A mediocre animation with excellent sound design outperforms a beautiful animation with no audio on every engagement metric.",
+      "evidence": "LinkedIn video posts with audio get 2-3x more engagement than silent posts. Facebook autoplay is muted but shows caption overlay, making voiceover the upgrade that captures users who unmute. Sound design is the single highest-ROI addition to the RENDER pipeline.",
+      "cost_note": "ElevenLabs TTS: ~$0.01-0.03 per voiceover. Music gen: ~$0.05. SFX: ~$0.01. Total sound design cost per ad: under $0.10."
+    },
+    {
+      "principle": "Kinetic Typography Is Cinema, Not Animation",
+      "description": "Moving text is not animated text. Moving text is text that arrives with meaning encoded in its motion. A word that drops from above carries weight. A word that slides from the right carries momentum. A word that scales from zero to full carries revelation. The motion IS the message. Choose the motion for what it communicates, not for how it looks.",
+      "framework_reference": "VISUAL-2026-005 Kinetic Typography Motion, MOTION-002 Easing Intelligence, MOTION-001 Choreography & Orchestration Intelligence"
+    },
+    {
+      "principle": "Playwright Quality Ceiling Requires Immediate Re-encode",
+      "description": "Playwright records WebM using VP8 at approximately 800kbps-2Mbps with no public API to increase bitrate. This is sufficient for social media but creates visible compression artifacts on large text and gradient backgrounds. Always re-encode to H.264 CRF 15 immediately after Playwright capture, before any other processing. This is the first FFmpeg command in every pipeline run, not the last.",
+      "ffmpeg_command": "ffmpeg -i recording.webm -c:v libx264 -crf 15 -preset slow -pix_fmt yuv420p output_hq.mp4"
+    },
+    {
+      "principle": "One HTML, Five Outputs",
+      "description": "RENDER-001 established one source to three formats (MP4, GIF, PNG). RENDER-004 extends to five: MP4 with audio (primary), MP4 silent with captions (social autoplay), GIF (email/X), PNG static (thumbnail), and 9:16 vertical (TikTok/Reels). Same HTML source. Different Playwright viewport + FFmpeg crop for vertical. Same animation logic.",
+      "vertical_viewport": "Playwright context: { viewport: { width: 1080, height: 1920 }, recordVideo: { size: { width: 1080, height: 1920 } } }. Use position: absolute with explicit height: 1920px, NOT 100vh."
+    }
+  ],
+  "layer_2_methodology": {
+    "name": "Audio-First RENDER Production Protocol",
+    "description": "This protocol replaces the Phase N position in RENDER-001. Instead of narrating after engineering the slide, narration comes FIRST and drives the animation timeline.",
+    "phases": {
+      "phase_0_script": {
+        "name": "Phase 0: Write the Script",
+        "purpose": "Write the voiceover script before any visual work begins",
+        "steps": [
+          "Write the one-sentence story (inherited from RENDER-001 Phase R)",
+          "Expand to a 15-30 second voiceover script with natural speech pacing",
+          "Mark audio landmarks: [PAUSE], [EMPHASIS], [BEAT] at transition points",
+          "Target word count: 40-75 words for 15s, 75-120 words for 30s (natural speech: ~150 wpm)",
+          "Read aloud to verify pacing before generating TTS"
+        ],
+        "script_format": "Plain text with landmark markers. Example: 'Input tokens cost a fraction of output tokens. [BEAT] Most people [EMPHASIS]prompt short[/EMPHASIS] and hope for long. [PAUSE] That is the expensive way. [BEAT] Framework libraries flip the ratio.'",
+        "output": "Script text file with landmarks marked"
+      },
+      "phase_1_voice": {
+        "name": "Phase 1: Generate and Measure Audio",
+        "purpose": "Produce voiceover and establish the master timeline",
+        "steps": [
+          "Generate voiceover using ElevenLabs TTS with appropriate voice and speed settings",
+          "Generate music bed if needed (ElevenLabs music gen or stock)",
+          "Generate sound effects if needed (ElevenLabs SFX: glitch sounds, whooshes, impacts)",
+          "Measure voiceover duration using ffprobe",
+          "Create timestamp map: match script landmarks to measured audio timestamps",
+          "Calculate total animation duration: voiceover duration + 2-3s hold at end"
+        ],
+        "ffprobe_command": "ffprobe -v quiet -print_format json -show_streams voiceover.mp3",
+        "duration_extraction": "Parse streams[0].duration from JSON output, multiply by 1000 for milliseconds",
+        "output": "Audio files + timestamp map with landmark positions in milliseconds"
+      },
+      "phase_2_timeline_map": {
+        "name": "Phase 2: Map Audio Landmarks to CSS Animation Delays",
+        "purpose": "Convert audio timestamp map into CSS animation-delay values",
+        "method": [
+          "Each audio landmark becomes a CSS animation-delay value",
+          "Visual elements entrance timing follows voiceover phrasing",
+          "BEAT markers become transition points (dissolve, glitch, scene change)",
+          "EMPHASIS markers become scale/color/weight accent animations",
+          "PAUSE markers become hold periods where animation pauses on current state"
+        ],
+        "example_mapping": {
+          "audio_landmark": "[BEAT] at 4.2 seconds",
+          "css_mapping": "animation-delay: 4200ms on the bar chart entrance animation",
+          "result": "Bar chart appears exactly when narrator says the stat"
+        },
+        "output": "Complete CSS animation timeline derived from audio timestamps",
+        "DOCTRINE_CORRECTION_v1_1": {
+          "production_validated": true,
+          "validated_across": "5 videos, April 2026",
+          "correction": "Visual timing syncs to VO WORDS, not beat structure. The Phase 2 mapping above describes building animation timing from the brief's theoretical beat positions. Five production runs proved this is insufficient. The brief's beat positions are estimates. The rendered VO audio is the actual master timeline. After VO is generated and mixed, watch the video once and mark where each key phrase actually lands in the audio. Then adjust CSS animation-delay values to match the VO word timing, not the brief's theoretical beats. The ear leads the eye.",
+          "example": "Brief specified layer assembly at 9s and final copy at 17s. VO render placed 'Render' at 8s and 'This ad built itself' at 14s. Visual was 1-3 seconds behind audio. Fix: shifted assembly 1.5s earlier, final copy from 17s to 14s.",
+          "new_phase": "Add a Phase 2.5 after initial mix: SYNC VERIFICATION. Watch the mixed video. For each key phrase in the VO, verify the corresponding visual element appears within 200ms of the phrase. If not, adjust animation-delay and re-record."
+        }
+      },
+      "phase_3_build": {
+        "name": "Phase 3: Engineer the Slide (RENDER-001 Phase E, but with locked timing)",
+        "purpose": "Build HTML/CSS/JS animation using the audio-derived timeline",
+        "inherited_from": "RENDER-001 Phase E: Engineer the Slide",
+        "critical_difference": "All animation-delay values are pre-determined from Phase 2. No guessing, no retiming. Build to the timeline, not around it.",
+        "output": "Single HTML file with animation timing locked to voiceover"
+      },
+      "phase_4_record": {
+        "name": "Phase 4: Record and Re-encode",
+        "purpose": "Playwright capture + immediate quality upgrade",
+        "steps": [
+          "Set Playwright viewport to target dimensions (1080x1080 or 1080x1920)",
+          "Use waitUntil: domcontentloaded (RENDER-L02 white flash prevention)",
+          "Wait for voiceover duration + hold time + 1s buffer",
+          "Close context to finalize WebM",
+          "IMMEDIATELY re-encode: ffmpeg -i recording.webm -c:v libx264 -crf 15 -preset slow -pix_fmt yuv420p recording_hq.mp4",
+          "Delete original WebM after re-encode verified"
+        ],
+        "output": "High-quality H.264 MP4 of animation (no audio yet)"
+      },
+      "phase_5_mix": {
+        "name": "Phase 5: Audio Mix and Master",
+        "purpose": "Combine video with all audio tracks at correct levels and timing",
+        "ffmpeg_multi_track_command": "ffmpeg -i video_hq.mp4 -i voiceover.mp3 -i music_bed.mp3 -i sfx.mp3 -filter_complex \"[1:a]volume=1.0[vo];[2:a]volume=0.20,afade=t=in:d=1,afade=t=out:st={VO_DURATION_MINUS_2}:d=2[music];[3:a]volume=0.7,adelay={SFX_OFFSET_MS}|{SFX_OFFSET_MS}[sfx];[vo][music][sfx]amix=inputs=3:duration=longest[aout]\" -map 0:v -map \"[aout]\" -c:v copy -c:a aac -b:a 192k output_final.mp4",
+        "volume_guidelines": {
+          "voiceover": "1.0 (reference level, never touched)",
+          "music_bed": "0.10-0.20 (background texture, never competing with voice)",
+          "sound_effects_general": "0.3-0.5 (punctuation, not distraction)",
+          "rule": "If you can hear the music during voiceover, it is too loud. Music should be felt, not heard.",
+          "production_tested_values": {
+            "production_validated": true,
+            "note": "These exact values produced clean mixes across 5 videos. Start here, adjust only if specific content requires it.",
+            "vo": 1.0,
+            "scan_beep": 0.06,
+            "glitch_sfx": 0.08,
+            "organic_tap_sfx": 0.35,
+            "music_bed_under_vo": 0.1,
+            "music_bed_no_vo": 0.4,
+            "rule": "SFX volume must be set relative to VO, not absolute. Mix VO last and loudest. SFX and music are texture, not content."
+          }
+        },
+        "sync_verification_checklist": {
+          "production_validated": true,
+          "description": "Run this after first mix, before final export",
+          "checks": [
+            "Glitch transition SFX hits at exact visual transition frame",
+            "Assembly/reveal animations start on VO cue word, not brief's beat estimate",
+            "Logo resolves on final VO word, not fixed timestamp",
+            "No audio clipping (peaks above 0dB). If clipping: reduce amix volumes.",
+            "Music fades out before video ends (no abrupt audio cut)",
+            "VO clearly audible over music bed at all points"
+          ]
+        },
+        "adelay_usage": "adelay={ms}|{ms} offsets audio start. First value = left channel, second = right. Use same value for both (mono offset). Example: adelay=2500|2500 starts SFX at 2.5 seconds.",
+        "output": "Final MP4 with synchronized audio mix"
+      },
+      "phase_6_export": {
+        "name": "Phase 6: Multi-Format Export",
+        "purpose": "Produce all distribution formats from the mixed master",
+        "formats": {
+          "mp4_with_audio": "The Phase 5 output. Primary deliverable for LinkedIn, Facebook, YouTube.",
+          "mp4_silent_captioned": "Strip audio, burn in caption text overlay. For social autoplay where sound is off. ffmpeg -i final.mp4 -an -vf \"drawtext=fontfile=Inter-Bold.ttf:textfile=captions.txt:fontsize=36:fontcolor=white:x=(w-text_w)/2:y=h-100\" silent_captioned.mp4",
+          "gif": "From video_hq.mp4 (pre-audio), standard RENDER GIF pipeline. Minimum 1080px for data content.",
+          "png_static": "Frame grab at fully-animated state. ffmpeg -i video_hq.mp4 -ss {BEST_FRAME_TIMESTAMP} -vframes 1 -q:v 2 static.png",
+          "vertical_9_16": "Re-record with Playwright at 1080x1920 viewport using adapted HTML layout. Apply same audio mix."
+        },
+        "output": "5 distribution-ready assets from single HTML source + audio files"
+      }
+    }
+  },
+  "layer_3_kinetic_typography_patterns": {
+    "description": "Five CSS kinetic typography techniques ranked by visual impact and implementation complexity. All work in Playwright recording. All use Inter (variable font) or JetBrains Mono.",
+    "patterns": [
+      {
+        "id": "KTYPE-001",
+        "name": "Variable Font Weight Morph",
+        "impact": "Highest. The single most professional text effect achievable in pure CSS.",
+        "description": "Animate font-variation-settings 'wght' axis from thin to black and back. Creates breathing, living text that draws attention without movement. Requires a variable font (Inter is variable).",
+        "css": "@keyframes weightMorph { 0% { font-variation-settings: 'wght' 100; } 50% { font-variation-settings: 'wght' 900; } 100% { font-variation-settings: 'wght' 400; } }",
+        "use_for": "Hero stat numbers counting up, emphasis words in headlines, brand name reveals",
+        "duration": "1.5-3s per cycle. Single pass (no loop) for dramatic. Infinite for ambient.",
+        "font_requirement": "Variable font with wght axis. Inter supports 100-900."
+      },
+      {
+        "id": "KTYPE-002",
+        "name": "Word-by-Word Reveal with Stagger",
+        "impact": "High. Creates reading rhythm that matches natural speech.",
+        "description": "Split text into span-wrapped words via JS. Each word fades up with staggered animation-delay. The viewer reads at the speed you control.",
+        "js_split": "text.split(' ').map((w, i) => '<span class=\"word\" style=\"animation-delay:' + (i * 120) + 'ms\">' + w + '</span>').join(' ')",
+        "css": ".word { opacity: 0; display: inline-block; animation: wordIn 0.3s cubic-bezier(0.23, 1, 0.32, 1) forwards; } @keyframes wordIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }",
+        "use_for": "Subtitle lines, supporting copy, any text that should feel spoken",
+        "timing_sync": "120ms per word = ~500 words/minute reading pace. Adjust to match voiceover speed.",
+        "accent_variant": "Apply different color or font-weight to specific words by adding a class during the split."
+      },
+      {
+        "id": "KTYPE-003",
+        "name": "Split-Line Rise (Cinematic Subtitle)",
+        "impact": "High. Film title sequence energy.",
+        "description": "Each line of a multi-line block slides up from below with staggered delay. The most recognized kinematic text pattern from film credits and title sequences.",
+        "css": ".line { opacity: 0; transform: translateY(30px); animation: lineRise 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; } @keyframes lineRise { to { opacity: 1; transform: translateY(0); } }",
+        "stagger": "0.15-0.25s between lines. Tighter stagger = urgent. Wider stagger = contemplative.",
+        "use_for": "Headlines, takeaway statements, brand manifesto lines",
+        "easing_note": "cubic-bezier(0.16, 1, 0.3, 1) is the film title easing. It overshoots very slightly then settles. Do not use ease-out here."
+      },
+      {
+        "id": "KTYPE-004",
+        "name": "Baseline Bounce (Impact Landing)",
+        "impact": "Medium-high. Creates a sense of physical weight and arrival.",
+        "description": "Text drops from above and bounces once on the baseline. Per-character stagger for maximum drama. The bounce communicates weight and finality.",
+        "css": "@keyframes baselineBounce { 0% { transform: translateY(-50px); opacity: 0; } 55% { transform: translateY(5px); opacity: 1; } 70% { transform: translateY(-3px); } 100% { transform: translateY(0); opacity: 1; } }",
+        "use_for": "Key stat numbers (600+, 5x), single impactful words, CTA text",
+        "per_character": "Split to spans, stagger 40-60ms per character. 10-character word = 400-600ms total entrance.",
+        "spring_easing": "cubic-bezier(0.34, 1.56, 0.64, 1) for exaggerated bounce. cubic-bezier(0.22, 1, 0.36, 1) for subtle."
+      },
+      {
+        "id": "KTYPE-005",
+        "name": "Character Scatter and Reassemble",
+        "impact": "Medium. High visual complexity. Use sparingly for reveal moments.",
+        "description": "Characters start at random positions and rotations across the canvas, then animate to their correct positions simultaneously. Creates an assembly effect. The text forms from chaos.",
+        "implementation": "JS splits text to per-character spans. Each gets random inline transform (translateX/Y + rotate). CSS transition on class toggle brings all characters to transform: none over 0.8-1.2s.",
+        "css": ".char { transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1); will-change: transform; } .char.assembled { transform: none; }",
+        "use_for": "Brand name reveals, single dramatic word, title card moments. Never for body copy.",
+        "performance_note": "Maximum 30 characters for smooth Playwright recording. Beyond that, compositor thread gets overloaded."
+      }
+    ]
+  },
+  "layer_4_camera_and_effects": {
+    "camera_simulation": {
+      "description": "Simulate cinematic camera movements on 2D HTML canvas using CSS transform on a wrapper div.",
+      "rule": "Wrap all scene content in a single .camera-rig div. Apply transforms to that div only. Never animate camera on individual elements.",
+      "movements": {
+        "slow_push": {
+          "description": "Gradual zoom in, builds tension or focus",
+          "css": "@keyframes slowPush { from { transform: scale(1); } to { transform: scale(1.08); } }",
+          "duration": "4-8s. The slower the more cinematic.",
+          "easing": "linear or cubic-bezier(0.25, 0, 0.25, 1)"
+        },
+        "tracking_pan": {
+          "description": "Horizontal movement following action, reveals content laterally",
+          "css": "@keyframes trackRight { from { transform: translateX(0) scale(1.02); } to { transform: translateX(-60px) scale(1.02); } }",
+          "note": "Slight scale (1.02) prevents edge visibility. Content must extend beyond viewport."
+        },
+        "dolly_zoom": {
+          "description": "Vertigo effect. Scale up while narrowing perspective. Creates unease or revelation.",
+          "css": "@keyframes dollyZoom { from { transform: scale(1); } to { transform: scale(1.3); } }",
+          "note": "Combine with slight filter: blur(0.3px) at midpoint for depth simulation."
+        },
+        "pull_back": {
+          "description": "Zoom out, reveals scope or context. Good for ecosystem views.",
+          "css": "@keyframes pullBack { from { transform: scale(1.15); } to { transform: scale(1); } }",
+          "use_for": "Opening shot (start tight, reveal the whole), transition from detail to overview"
+        }
+      }
+    },
+    "particle_systems": {
+      "description": "CSS-only particle generation for ambient effects (floating dots, data streams, sparks).",
+      "performance_budget": "50 particles: smooth everywhere. 100 particles: smooth with constraints. 200 particles: risky in Playwright recording.",
+      "safe_pattern": {
+        "element": "4px square divs (no border-radius above 100 count)",
+        "required_properties": "will-change: transform, opacity on every particle",
+        "forbidden_above_100": "filter: blur(), box-shadow with spread, border-radius on particles",
+        "generation": "JS createElement loop, set CSS custom properties --x, --y, --dur, --delay per particle"
+      },
+      "effect_types": {
+        "floating_ambient": "Slow translateY upward with opacity pulse. Duration 4-8s. Delay randomized.",
+        "data_stream": "Fast translateX with slight Y variation. Duration 1-2s. Creates horizontal flow feeling.",
+        "spark_burst": "translateX/Y from center outward with scale 1 to 0 and opacity fade. Duration 0.5-1s."
+      }
+    },
+    "glitch_effects": {
+      "description": "Digital glitch transition system. Validated in narrative-interface v2 production.",
+      "implementation": "12 horizontal slice divs with randomized translateX displacement every 80ms via setInterval. RGB channel simulation via hue-rotate and saturate filter on source layer. Scanline overlay. Intensity ramp in final third.",
+      "timing": "600-1000ms total duration. Shorter = sharp cut. Longer = system overload feeling.",
+      "use_for": "Scene transitions where the system is 'reacting', not just cutting. The narrative interface 'Show me' moment."
+    }
+  },
+  "layer_5_sound_design_protocol": {
+    "description": "Complete audio production workflow using ElevenLabs MCP tools + FFmpeg mixing.",
+    "voice_production": {
+      "tool": "ElevenLabs TTS (mcp__ElevenLabs__text_to_speech or mcp__ElevenLabs_Player__generate_tts)",
+      "voice_selection": {
+        "authority_data": "Deep, measured pace. Search ElevenLabs library for 'professional male narrator' or 'documentary'.",
+        "energy_action": "Bright, faster pace. Search for 'commercial' or 'upbeat'.",
+        "technical_trust": "Neutral, clear. The default Adam or similar neutral voices."
+      },
+      "speed_setting": "0.9-1.0 for authority. 1.0-1.1 for energy. Never above 1.2 (sounds rushed).",
+      "output_format": "mp3_44100_128 for production. mp3_22050_32 for preview/draft."
+    },
+    "music_production": {
+      "tool": "ElevenLabs music generation (mcp__ElevenLabs__compose_music or mcp__ElevenLabs_Player__generate_music)",
+      "prompt_patterns": {
+        "authority_data_viz": "Minimal ambient electronic, dark atmospheric pad, slow tempo 70bpm, no melody, subtle bass pulse, cinematic tension",
+        "energy_product_ad": "Upbeat electronic, clean synth lead, moderate tempo 110bpm, building energy, positive resolution",
+        "dramatic_reveal": "Cinematic orchestral swell, building tension, timpani impact at climax, resolving to calm pad"
+      },
+      "duration_rule": "Generate music 3-5 seconds longer than total animation duration. FFmpeg afade handles the trim.",
+      "volume_rule": "Music bed at 0.15-0.25 during voiceover. Music only (no VO) sections can be 0.4-0.6."
+    },
+    "sfx_production": {
+      "tool": "ElevenLabs SFX (mcp__ElevenLabs__text_to_sound_effects or mcp__ElevenLabs_Player__generate_sound_effect)",
+      "catalog": {
+        "transition_whoosh": "Quick digital whoosh sound, 0.5 seconds, clean and modern",
+        "glitch_hit": "Digital glitch impact, sharp, distorted, 0.3 seconds",
+        "data_reveal": "Subtle electronic ping, UI notification style, clean, 0.2 seconds",
+        "counter_tick": "Soft mechanical counter tick, single click, 0.1 seconds",
+        "impact_boom": "Deep cinematic boom hit, sub bass, 1 second, dramatic"
+      },
+      "placement_rule": "SFX land on visual transition frames. A whoosh on a scene change. A tick on each counter increment. An impact on a hero stat landing. Never more than 3 SFX in a 15-second ad."
+    },
+    "mixing_master_command": {
+      "description": "FFmpeg command template for final audio-visual master",
+      "template": "ffmpeg -i video_hq.mp4 -i voiceover.mp3 -i music_bed.mp3 -i sfx_transition.mp3 -filter_complex \"[1:a]volume=1.0[vo];[2:a]volume=0.20,afade=t=in:d=1,afade=t=out:st=FADE_OUT_START:d=2[music];[3:a]volume=0.7,adelay=SFX_OFFSET_MS|SFX_OFFSET_MS[sfx];[vo][music][sfx]amix=inputs=3:duration=longest[aout]\" -map 0:v -map \"[aout]\" -c:v copy -c:a aac -b:a 192k final_master.mp4",
+      "variable_substitutions": {
+        "FADE_OUT_START": "voiceover_duration_seconds minus 2",
+        "SFX_OFFSET_MS": "timestamp in milliseconds where the visual transition occurs"
+      },
+      "multiple_sfx": "For multiple SFX at different timestamps, chain them: [3:a]adelay=2500|2500[sfx1];[4:a]adelay=6000|6000[sfx2]; then amix=inputs=4"
+    }
+  },
+  "layer_6_quality_gates": {
+    "pre_production": [
+      "Script written and read aloud before any TTS generation",
+      "Audio landmarks marked in script before generation",
+      "Brand system identified (ragedesigner.com vs framework sites) before any visual work"
+    ],
+    "post_audio": [
+      "Voiceover duration measured with ffprobe before CSS timeline construction",
+      "Timestamp map created: every audio landmark has a millisecond value",
+      "Music bed is 3-5 seconds longer than total animation duration"
+    ],
+    "post_build": [
+      "CSS animation-delay values match audio timestamp map within 200ms tolerance",
+      "All text readable at phone viewing scale (minimum 28px at 1080px canvas)",
+      "No orphaned words (nbsp before last word in every text element)"
+    ],
+    "post_record": [
+      "WebM immediately re-encoded to H.264 CRF 15 before any other processing",
+      "Re-encoded MP4 visually verified: no frame drops, no white flash, no compression artifacts on text"
+    ],
+    "post_mix": [
+      "Voiceover clearly audible over music bed at all points",
+      "SFX land within 100ms of corresponding visual transition",
+      "No audio clipping (peaks above 0dB). If clipping: reduce amix volumes.",
+      "Music fades out before video ends (no abrupt audio cut)"
+    ],
+    "post_export": [
+      "MP4 with audio: plays correctly on phone and desktop",
+      "GIF: readable at 1080px, under 5MB for LinkedIn",
+      "PNG static: captures fully-animated state, not mid-transition",
+      "All files named per RENDER-001 convention: [project]-[format]-[version].[ext]"
+    ]
+  },
+  "layer_7_production_lessons": {
+    "from_session_2026_04_14": [
+      {
+        "lesson_id": "RENDER-004-L01",
+        "name": "Preview Tool JS Timing Limitations",
+        "problem": "Claude Preview MCP tool does not reliably execute setTimeout or requestAnimationFrame callbacks. Counters and timed JS events appear to not fire.",
+        "cause": "Preview tool evaluates JS in a sandboxed context that may throttle or deprioritize timer callbacks.",
+        "solution": "Always verify JS-dependent animations in Playwright (a real Chromium browser), not in the preview tool. Use preview for CSS-only visual verification. Use Playwright for full animation verification.",
+        "rule": "If it works in Playwright, it works. If it fails in Preview, that is a Preview limitation, not a code bug."
+      },
+      {
+        "lesson_id": "RENDER-004-L02",
+        "name": "Mobile Readability Minimum",
+        "problem": "Text at 13-14px on a 1080px canvas is illegible on phone screens. Users viewing LinkedIn posts on mobile see the image at approximately 375px wide, reducing all text to 35% of authored size.",
+        "solution": "Minimum 18px for any text on a 1080px canvas. Minimum 28px for text that must be readable without zooming. Simplify data labels, remove redundant information, increase font weight.",
+        "rule": "At 1080px canvas, 28px is the phone-readable floor. 18px is the absolute minimum for any visible text."
+      },
+      {
+        "lesson_id": "RENDER-004-L03",
+        "name": "Glitch Transition Superiority",
+        "problem": "Grid dissolve (20x20 cell fade) reads as technical but polite. Does not create emotional response.",
+        "solution": "Horizontal slice displacement with RGB channel shift and scanline overlay reads as system overload. Creates 'what just happened' reaction. Use for any transition where the content is supposed to feel like it broke through, not faded in.",
+        "implementation": "12 horizontal slices, randomized translateX every 80ms, hue-rotate + saturate filter on source, ramp intensity in final 30% of duration."
+      },
+      {
+        "lesson_id": "RENDER-004-L04",
+        "name": "Facebook GIF Mobile Failure",
+        "problem": "GIFs above 4-5MB fail to display on Facebook mobile app. They work on desktop and in Slack.",
+        "solution": "Post MP4 to Facebook, not GIF. Facebook's mobile app handles MP4 natively with autoplay. LinkedIn same recommendation. Reserve GIF for X and email where MP4 embedding is limited.",
+        "platform_format_matrix": {
+          "linkedin": "MP4 (video post, best reach)",
+          "facebook": "MP4 (never GIF on mobile)",
+          "x_twitter": "GIF (under 5MB) or MP4",
+          "instagram": "MP4 (Reels for vertical, feed for square)",
+          "email": "GIF (under 3MB) with static PNG fallback",
+          "slack": "GIF or MP4 (both work)"
+        }
+      },
+      {
+        "lesson_id": "RENDER-004-L05",
+        "name": "The Pause Before Transition",
+        "problem": "Cutting immediately from typed response to next scene does not give viewer time to read. Creates 'I missed something' anxiety.",
+        "solution": "Hold 1.0-1.5 seconds on completed text before any transition. The pause creates anticipation. The viewer finishes reading, expects nothing, then the glitch hits. The surprise is amplified by the calm that preceded it.",
+        "rule": "Every typed text block gets a 1.0-1.5s hold after the last character before any transition begins."
+      },
+      {
+        "lesson_id": "RENDER-004-L06",
+        "name": "Narrative Interface as New Archetype",
+        "description": "The terminal-to-visualization-to-terminal pattern created in the April 14 session does not map to any of RENDER-002's 20 existing archetypes. It is a new category: interface simulation as storytelling device. Viewer is not presented data. Viewer witnesses a system activating.",
+        "proposed_archetype": {
+          "id": "TERMINAL-REVEAL",
+          "name": "Terminal / Interface Reveal",
+          "data_shape": "A transformation story that needs to feel witnessed, not presented",
+          "when_to_use": "Product capability demonstrations, system activation narratives, before/after stories told through an interface metaphor",
+          "animation": "Three-act structure: (1) familiar interface with live interaction, (2) system transformation via glitch/dissolve, (3) authority close on minimal terminal",
+          "frame_compatibility": [
+            "FRAME-FULLBLEED"
+          ],
+          "mood_compatibility": [
+            "Dark Mode Surface",
+            "Brutalist Revival (for glitch moments)"
+          ]
+        },
+        "action": "Add TERMINAL-REVEAL to RENDER-002 Pattern Library as archetype #21 in next framework update."
+      }
+    ]
+  },
+  "integration_notes": {
+    "audio_first_inversion": "Replaces traditional 'narrate after animation' pipelines. Audio becomes the master timeline; CSS animation-delay values derive from measured voiceover landmarks.",
+    "kinetic_typography": "KTYPE-001 through KTYPE-005 implement variable-font, word-stagger, line-rise, baseline-bounce, and scatter-reassemble patterns. All work in standard browser recording environments.",
+    "motion_principles": "Choreography (stagger, sequence, entrance/exit order) and easing curves (film title easing, spring bounce, gravity drop) inform text animation timing.",
+    "audio_envelopes": "ADSR concepts apply to SFX placement: attack on transition frame, decay as reverb tail, sustain as music bed level, release as fade out.",
+    "tooling": "Voice generation, SFX, and music composition via ElevenLabs MCP tools (text_to_speech, text_to_sound_effects, compose_music). Final mix via FFmpeg multi-track filter_complex with adelay and amix."
+  },
+  "version_history": {
+    "v1_0_2026_04_14": "Initial framework. Closes three critical gaps: audio-first timeline, multi-track mixing, kinetic typography. Built from gap analysis during token economics + narrative interface production session. Includes 6 production lessons from session, 5 kinetic typography patterns, 4 camera movements, sound design protocol with ElevenLabs integration, and TERMINAL-REVEAL archetype proposal.",
+    "v1_1_2026_04_15": "DOCTRINE CORRECTION: Visual timing syncs to VO words, not beat structure. Phase 2.5 (Sync Verification) added. Production-tested SFX volume levels added (scan beep 0.06, glitch 0.08, music 0.10 under VO). Sync verification checklist added to Phase 5. Validated across 5 video productions."
+  }
+}
