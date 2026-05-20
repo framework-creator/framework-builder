@@ -60,7 +60,7 @@ Modify it freely. The license is MIT. If your house style needs different volume
 
 This framework wasn't designed up front. It was extracted from a production session in April 2026 where the gaps in the existing pipeline became obvious enough to name. Those gaps got documented, the documentation got structured into the standard five-layer format, and version 1.1 followed two weeks later after five production runs surfaced the audio-sync issue that triggered Phase 2.5.
 
-That's how the methodology works. Frameworks come from doing the work, then naming what made it work. Roughly 700 of them now exist in the RageDesigner library, covering everything from federal contracting to film cinematography to web conversion optimization.
+That's how the methodology works. Frameworks come from doing the work, then naming what made it work. Roughly 1100 of them now exist in the RageDesigner library, covering everything from federal contracting to film cinematography to web conversion optimization.
 
 The methodology itself is what compounds. Individual frameworks like this one make better teaching tools when they're public. If you can see what one looks like, you can build your own. That's the whole point.
 
@@ -72,4 +72,4 @@ Build your own. The methodology lives in the parent repo's [`SKILL.md`](../../SK
 
 Or reach out. If you want a custom framework built for your specific pipeline, that's what RageDesigner does. [ragedesigner.com](https://ragedesigner.com) for the consulting side, [whatisaframework.com](https://whatisaframework.com) for the conceptual foundations, and [howtoframework.com](https://howtoframework.com) for the practical guides.
 
-All three paths are equally valid. The framework you're looking at right now is one of about 700. The library keeps growing because the methodology keeps producing them.
+All three paths are equally valid. The framework you're looking at right now is one of about 1100. The library keeps growing because the methodology keeps producing them.

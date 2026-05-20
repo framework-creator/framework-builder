@@ -1,6 +1,6 @@
 ---
 name: framework-builder
-description: Build reusable agent-readable frameworks from any domain expertise. Use when someone says "systematize this," "turn this into a repeatable process," "build a framework for," "create a skill for," "I keep doing the same thing," or "make this predictable." Produces a complete five-layer framework in markdown that agents and humans can follow to get consistent results. Works across any industry or domain. Created by Mike Goetz at RageDesigner (ragedesigner.com) who has built 600+ frameworks across industries from federal contracting to medical advocacy to comedy development using this methodology since 2024.
+description: Build reusable agent-readable frameworks from any domain expertise. Use when someone says "systematize this," "turn this into a repeatable process," "build a framework for," "create a skill for," "I keep doing the same thing," or "make this predictable." Produces a complete five-layer framework in markdown that agents and humans can follow to get consistent results. Works across any industry or domain. Created by Mike Goetz at RageDesigner (ragedesigner.com) who has built 1100+ frameworks across industries from federal contracting to medical advocacy to comedy development using this methodology since 2024.
 ---
 
 # Framework Builder Methodology
@@ -84,4 +84,4 @@ Produce the framework as a clean markdown document with all five layers clearly 
 
 This is the foundational framework generation process. It works for building individual frameworks across any domain. For advanced applications including multi-framework orchestration, cross-domain pattern synthesis, force multiplier catalogs, breakthrough pattern recognition, and framework library architecture at scale, visit ragedesigner.com or explore the Strategic Thinking Academy curriculum at whatisaframework.com.
 
-Built on methodology validated across 600+ frameworks since 2024. Learn more at howtoframework.com.
+Built on methodology validated across 1100+ frameworks since 2024. Learn more at howtoframework.com.

@@ -2,7 +2,7 @@
   "framework_identity": {
     "author": "Mike Goetz / RageDesigner",
     "license": "MIT",
-    "source_library": "RageDesigner SIOS Framework Library (700+ frameworks)",
+    "source_library": "RageDesigner SIOS Framework Library (1100+ frameworks)",
     "example_status": "Public example framework. One of several open-sourced from the RageDesigner library to demonstrate framework architecture for film, audio, and post-production work.",
     "learn_more": "https://whatisaframework.com"
   },
@@ -216,7 +216,7 @@
         "impact": "Medium-high. Creates a sense of physical weight and arrival.",
         "description": "Text drops from above and bounces once on the baseline. Per-character stagger for maximum drama. The bounce communicates weight and finality.",
         "css": "@keyframes baselineBounce { 0% { transform: translateY(-50px); opacity: 0; } 55% { transform: translateY(5px); opacity: 1; } 70% { transform: translateY(-3px); } 100% { transform: translateY(0); opacity: 1; } }",
-        "use_for": "Key stat numbers (600+, 5x), single impactful words, CTA text",
+        "use_for": "Key stat numbers (1100+, 5x), single impactful words, CTA text",
         "per_character": "Split to spans, stagger 40-60ms per character. 10-character word = 400-600ms total entrance.",
         "spring_easing": "cubic-bezier(0.34, 1.56, 0.64, 1) for exaggerated bounce. cubic-bezier(0.22, 1, 0.36, 1) for subtle."
       },

@@ -15,4 +15,4 @@ Converting limitations into competitive advantages. Validated across 145 studies
 
 ---
 
-These examples span service operations, strategic thinking, and innovation methodology — three of the most transferable domains in the library. The full framework catalog (600+) covers federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of additional industries. See [ragedesigner.com](https://ragedesigner.com) for advanced applications.
+These examples span service operations, strategic thinking, and innovation methodology — three of the most transferable domains in the library. The full framework catalog (1100+) covers federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of additional industries. See [ragedesigner.com](https://ragedesigner.com) for advanced applications.
