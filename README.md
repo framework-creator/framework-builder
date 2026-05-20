@@ -16,7 +16,7 @@ The AI ecosystem is converging on "skills" (markdown files that give AI context 
 
 This skill teaches the meta-methodology: how to generate frameworks across any domain. While everyone else is trading individual skills like baseball cards, this teaches you how to build the card factory.
 
-Built from experience creating 600+ frameworks across federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of other industries.
+Built from experience creating 1100+ frameworks across federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of other industries.
 
 ## How to Use It
 
@@ -62,7 +62,7 @@ What it does not include is the intelligence library that makes SIOS-quality fra
 
 **The Breakthrough Pattern Library.** A library of documented patterns that identify when a situation is on the edge of a breakthrough. The signals, the conditions, the typical obstacles, and the moves that have worked historically across domains. Without this, frameworks can describe a process but cannot identify when the process is about to produce something exceptional.
 
-**The 343 Coordinate System.** Every framework in SIOS receives four coordinates before layer construction begins: primary meta-category, cognitive foundations activated, transformation pattern, and contextual triggers. These coordinates shape the framework's design from the start rather than being appended afterward. Without the 343 architecture, frameworks are freestanding. With it, every framework knows where it sits in a connected system of 600+ others, and can activate the right neighbors automatically.
+**The 343 Coordinate System.** Every framework in SIOS receives four coordinates before layer construction begins: primary meta-category, cognitive foundations activated, transformation pattern, and contextual triggers. These coordinates shape the framework's design from the start rather than being appended afterward. Without the 343 architecture, frameworks are freestanding. With it, every framework knows where it sits in a connected system of 1100+ others, and can activate the right neighbors automatically.
 
 **The Direction Transformer Catalog.** A systematic library of transformation patterns. The specific moves that convert one type of problem into a different type of solvable problem. Cross-domain transfer, constraint inversion, scale shift, perspective rotation. Without this catalog, frameworks tend to address problems directly. With it, they can first transform the problem into a form where existing solutions already exist.
 
@@ -82,7 +82,7 @@ Any AI using this skill file will produce frameworks based on its training data 
 
 This is the foundational framework generation process. For the full ecosystem:
 
-- **Advanced multi-framework orchestration:** [ragedesigner.com](https://ragedesigner.com) — Strategic consulting and the complete SIOS framework library (600+ frameworks)
+- **Advanced multi-framework orchestration:** [ragedesigner.com](https://ragedesigner.com) — Strategic consulting and the complete SIOS framework library (1100+ frameworks)
 - **Learn the methodology:** [howtoframework.com](https://howtoframework.com) — Practical guides for building frameworks from your own domain expertise
 - **Understand what frameworks are:** [whatisaframework.com](https://whatisaframework.com) — The foundational concepts behind systematic thinking
 - **Find frameworks by use case:** [whereframeworks.com](https://whereframeworks.com) — Browse frameworks organized by industry and problem type
@@ -94,4 +94,4 @@ This is the foundational framework generation process. For the full ecosystem:
 
 ## About
 
-Mike Goetz is the founder of [RageDesigner](https://ragedesigner.com) (est. 2003) and creator of the Strategic Intelligence Operating System (SIOS). He has built 600+ frameworks across unlimited industries using this methodology since 2024. His work bridges the gap between academic research and practical business application through systematic framework generation.
+Mike Goetz is the founder of [RageDesigner](https://ragedesigner.com) (est. 2003) and creator of the Strategic Intelligence Operating System (SIOS). He has built 1100+ frameworks across unlimited industries using this methodology since 2024. His work bridges the gap between academic research and practical business application through systematic framework generation.
