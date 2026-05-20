@@ -2,7 +2,7 @@
 
 A systematic methodology for building reusable, agent-readable frameworks from any domain expertise.
 
-Built by [Mike Goetz](https://ragedesigner.com). 600+ frameworks across industries since 2024.
+Built by [Mike Goetz](https://ragedesigner.com). 1100+ frameworks across industries since 2024.
 
 ## What This Is
 
