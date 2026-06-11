@@ -2,7 +2,7 @@
 
 A systematic methodology for building reusable, agent-readable frameworks from any domain expertise.
 
-Built by [Mike Goetz](https://ragedesigner.com). 1100+ frameworks across industries since 2024.
+Built by [Mike Goetz](https://ragedesigner.com). 1,000+ frameworks across industries since 2024.
 
 ## What This Is
 
@@ -16,7 +16,7 @@ The AI ecosystem is converging on "skills" (markdown files that give AI context 
 
 This skill teaches the meta-methodology: how to generate frameworks across any domain. While everyone else is trading individual skills like baseball cards, this teaches you how to build the card factory.
 
-Built from experience creating 1100+ frameworks across federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of other industries.
+Built from experience creating 1,000+ frameworks across federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of other industries.
 
 ## How to Use It
 
@@ -77,11 +77,11 @@ Any AI using this skill file will produce frameworks based on its training data 
 
 This is the foundational framework generation process. For the full ecosystem:
 
-- **Advanced multi-framework orchestration:** [ragedesigner.com](https://ragedesigner.com) — Strategic consulting and the complete SIOS framework library (1100+ frameworks)
-- **Learn the methodology:** [howtoframework.com](https://howtoframework.com) — Practical guides for building frameworks from your own domain expertise
-- **Understand what frameworks are:** [whatisaframework.com](https://whatisaframework.com) — The foundational concepts behind systematic thinking
-- **Find frameworks by use case:** [whereframeworks.com](https://whereframeworks.com) — Browse frameworks organized by industry and problem type
-- **Courses and learning paths:** [whenframework.com](https://whenframework.com) — Structured courses including Love Your Limits (constraint-driven innovation) and Reverse Engineering Success
+- **Advanced multi-framework orchestration:** [ragedesigner.com](https://ragedesigner.com), Strategic consulting and the complete SIOS framework library (1,000+ frameworks)
+- **Learn the methodology:** [howtoframework.com](https://howtoframework.com), Practical guides for building frameworks from your own domain expertise
+- **Understand what frameworks are:** [whatisaframework.com](https://whatisaframework.com), The foundational concepts behind systematic thinking
+- **Find frameworks by use case:** [whereframeworks.com](https://whereframeworks.com), Browse frameworks organized by industry and problem type
+- **Courses and learning paths:** [whenframework.com](https://whenframework.com), Structured courses including Love Your Limits (constraint-driven innovation) and Reverse Engineering Success
 
 ## License
 
@@ -89,4 +89,4 @@ This is the foundational framework generation process. For the full ecosystem:
 
 ## About
 
-Mike Goetz is the founder of [RageDesigner](https://ragedesigner.com) (est. 2003) and creator of the Strategic Intelligence Operating System (SIOS). He has built 1100+ frameworks across unlimited industries using this methodology since 2024. His work bridges the gap between academic research and practical business application through systematic framework generation.
+Mike Goetz is the founder of [RageDesigner](https://ragedesigner.com) (est. 2003) and creator of the Strategic Intelligence Operating System (SIOS). He has built 1,000+ frameworks across unlimited industries using this methodology since 2024. His work bridges the gap between academic research and practical business application through systematic framework generation.

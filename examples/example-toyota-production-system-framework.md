@@ -1,6 +1,6 @@
 # Cross-Domain Pattern Transfer Framework
 
-*This framework was generated using the Framework Builder methodology. It demonstrates five-layer architecture applied to transferring proven solutions from one industry to solve problems in another — illustrated through how Toyota's 1896 manufacturing breakthrough maps directly to modern AI agent architecture.*
+*This framework was generated using the Framework Builder methodology. It demonstrates five-layer architecture applied to transferring proven solutions from one industry to solve problems in another, illustrated through how Toyota's 1896 manufacturing breakthrough maps directly to modern AI agent architecture.*
 
 ---
 
@@ -8,7 +8,7 @@
 
 **Principle 1: Every domain has already solved your problem.** The challenge you're facing today has a structural equivalent in some other industry that solved it decades or centuries ago. The solution exists. The work is finding the right analog and translating the mechanism, not inventing from scratch.
 
-**Principle 2: Mechanism matters more than surface similarity.** The wrong cross-domain transfer matches superficial features ("both involve networks"). The right transfer matches the underlying mechanism ("both involve autonomous units deciding locally while contributing to system-level outcomes"). Toyota's looms and AI agents look nothing alike. The mechanism — autonomous stopping when something goes wrong instead of propagating bad output downstream — is identical.
+**Principle 2: Mechanism matters more than surface similarity.** The wrong cross-domain transfer matches superficial features ("both involve networks"). The right transfer matches the underlying mechanism ("both involve autonomous units deciding locally while contributing to system-level outcomes"). Toyota's looms and AI agents look nothing alike. The mechanism, autonomous stopping when something goes wrong instead of propagating bad output downstream, is identical.
 
 **Principle 3: Translation friction is where value hides.** The gap between the source domain and the target domain is not a problem to solve around. It's where the insight lives. The translation work surfaces what's actually essential about the solution versus what was just a feature of the original context.
 
@@ -18,11 +18,11 @@
 
 **Step 1: Define the target problem structurally.** Before searching for analogs, describe your problem in terms of mechanisms and relationships rather than domain-specific language. "AI agents produce errors that compound downstream" becomes "autonomous units in a pipeline propagate failures when there's no interruption mechanism." The structural description opens the search.
 
-**Step 2: Search for structural matches across domains.** Ask: where else has this mechanical pattern appeared? Look in manufacturing, biology, military history, sports, and infrastructure — these domains have been optimizing complex systems longer than software has existed. The match doesn't need to look similar. It needs to work similarly.
+**Step 2: Search for structural matches across domains.** Ask: where else has this mechanical pattern appeared? Look in manufacturing, biology, military history, sports, and infrastructure, these domains have been optimizing complex systems longer than software has existed. The match doesn't need to look similar. It needs to work similarly.
 
-**Step 3: Extract the mechanism, not the solution.** When you find a match, describe exactly how it works at the mechanical level. Toyota's jidoka: each machine monitors its own output, compares against a quality threshold, and stops the entire line when the threshold is breached rather than passing defects forward. That's the mechanism. Not "quality control" — the specific stopping logic.
+**Step 3: Extract the mechanism, not the solution.** When you find a match, describe exactly how it works at the mechanical level. Toyota's jidoka: each machine monitors its own output, compares against a quality threshold, and stops the entire line when the threshold is breached rather than passing defects forward. That's the mechanism. Not "quality control", the specific stopping logic.
 
-**Step 4: Translate the mechanism to your context.** Map each element of the source mechanism to an equivalent in your domain. "Machine" becomes "agent." "Output" becomes "intermediate result." "Quality threshold" becomes "confidence score or validation check." "Stop the line" becomes "halt the pipeline and surface the issue for human review." The translation is where most cross-domain transfers fail — people translate the vocabulary but miss the structural logic.
+**Step 4: Translate the mechanism to your context.** Map each element of the source mechanism to an equivalent in your domain. "Machine" becomes "agent." "Output" becomes "intermediate result." "Quality threshold" becomes "confidence score or validation check." "Stop the line" becomes "halt the pipeline and surface the issue for human review." The translation is where most cross-domain transfers fail, people translate the vocabulary but miss the structural logic.
 
 **Step 5: Test the translation against failure modes.** Ask: does this translation break where the original held? What failure modes does the original mechanism address that your translation doesn't cover? What new failure modes does your domain introduce that the original didn't have?
 
@@ -58,4 +58,4 @@
 
 **Edge case: Multiple analogs exist.** When several source domains map to the same target problem, compare mechanisms rather than picking one. The differences between how biology, manufacturing, and military strategy solved the same structural problem often reveal which aspects of the problem are universal versus context-specific.
 
-**Edge case: The domain expert rejects the analog.** This is data, not failure. Ask specifically what the analog gets wrong at the mechanical level. Either they're pattern-matching on surface features (the analog holds) or they've identified a genuine structural difference (refine or abandon the transfer). Domain experts who reject cross-domain thinking on principle are not useful evaluators — find someone willing to engage with the mechanism.
+**Edge case: The domain expert rejects the analog.** This is data, not failure. Ask specifically what the analog gets wrong at the mechanical level. Either they're pattern-matching on surface features (the analog holds) or they've identified a genuine structural difference (refine or abandon the transfer). Domain experts who reject cross-domain thinking on principle are not useful evaluators, find someone willing to engage with the mechanism.

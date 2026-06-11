@@ -1,4 +1,4 @@
-# Trigger Map — When to Reach for Each Framework
+# Trigger Map, When to Reach for Each Framework
 
 The fastest way to get value from this library is knowing which framework to grab before you open it. Use this map.
 

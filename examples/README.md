@@ -13,6 +13,12 @@ How to find proven solutions in other industries and transfer the mechanism to y
 **[Constraint-Driven Innovation](example-constraint-driven-innovation-framework.md)**
 Converting limitations into competitive advantages. Validated across 145 studies. Applies to individuals, teams, and organizations operating under resource, time, or distribution constraints.
 
+**[Delegation Brief](example-delegation-brief-framework.md)**
+How to hand work to another person or an AI so it comes back right the first time. The framework the main README recommends starting with.
+
+**[Film & Audio](film-audio/)**
+Audio Visual Production Intelligence for sound engineers, film professionals, and post-production teams. Includes machine-readable JSON companions.
+
 ---
 
-These examples span service operations, strategic thinking, and innovation methodology — three of the most transferable domains in the library. The full framework catalog (600+) covers federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of additional industries. See [ragedesigner.com](https://ragedesigner.com) for advanced applications.
+These examples span service operations, strategic thinking, innovation methodology, delegation, and creative production, among the most transferable domains in the library. The full framework catalog (1,000+) covers federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of additional industries. See [ragedesigner.com](https://ragedesigner.com) for advanced applications.

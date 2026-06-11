@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions welcome. Every tool in this repo is deliberately minimal, with an extension-paths list inside it that doubles as a pull-request menu. Pick one. Build it. Send it back.
+Contributions welcome. This repo ships the framework-building methodology (SKILL.md) plus worked example frameworks under examples/. The best contribution is a new example framework from a domain we have not covered, built with the methodology and held to the standards below. The machine-readable .framework.json spec and its tooling live in the companion repo, framework-standard (https://github.com/framework-creator/framework-standard).
 
 This document explains what makes a contribution good, not just valid.
 
@@ -95,7 +95,7 @@ Put your framework in a subdirectory named for its series or theme under `theore
 
 ## The Validation Pathway
 
-Theoretical → Validated is an open process. If you use a contributed theoretical framework and get measurable results, open a pull request moving the file from `theoretical/` to `validated/` and include:
+Theoretical → Validated is an open process. If you use a contributed theoretical framework and get measurable results, open a pull request adding your results to the example's document (or an issue if you prefer) and include:
 
 - Your domain and role (anonymized if preferred).
 - How many times you used the framework.
@@ -106,20 +106,19 @@ The community validates frameworks by using them. That is the real quality gate.
 
 ## Before you submit
 
-- [ ] Run `python3 tools/ingest.py --source your-folder --db check.db --strict` and confirm zero errors.
+- [ ] Markdown examples: all five layers present with real content, matching the structure in SKILL.md. JSON examples: validate with the framework-standard repo's tooling (`python3 tools/ingest.py --strict` there) and confirm zero errors.
 - [ ] Read https://whatisaframework.com if you have not.
 - [ ] Confirm your `layer_3_force_multipliers` section has specific mechanisms, not generic "saves time" claims.
 - [ ] No em dashes. Check for `—`, `&mdash;`, `&#8212;`, `&#x2014;`.
 - [ ] One framework per file. One meaningful change per PR where possible.
 
-## Extension paths in existing tools
+## Other ways to contribute
 
-Every tool in this repo includes an "extension paths" section that lists specific upgrades worth building. Those are explicit PR invitations. Current examples:
+- A new example framework from an uncovered domain (the highest-value contribution).
+- Corrections to existing examples where a mechanism is wrong or a claim does not hold.
+- Tooling and spec work belongs in the companion framework-standard repo, which lists explicit extension paths inside each tool.
 
-- `conversation-miner.html` lists five upgrade paths including semantic search, LLM-scored quality, ChatGPT support, topic clustering, and direct Claude Projects API integration.
-- `tools/` scripts each have extension comments showing where to add support for new formats.
-
-If an extension path matches something you want to build, open a PR. The standard gets better when more people touch it.
+The methodology gets better when more people use it and report back.
 
 ## License
 

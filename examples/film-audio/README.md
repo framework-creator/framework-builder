@@ -12,6 +12,8 @@ More frameworks will be added here as they're open-sourced from the broader libr
 
 Each framework includes both a JSON file (machine-readable, paste into your AI's context) and a Markdown companion document (human-readable, explains what the framework does and why). Use either or both.
 
+**A note on layer count:** the JSON file here uses an extended seven-layer variant used by production frameworks in the full library. The five-layer DNA described in SKILL.md is the portable core; the extra layers are a superset, not a different methodology.
+
 The methodology that produced these frameworks lives in the parent repo's [`SKILL.md`](../../SKILL.md). If you want to build your own framework for your own domain, start there.
 
 For more context on what frameworks are and how they work, see [whatisaframework.com](https://whatisaframework.com). For the broader library and consulting work, see [ragedesigner.com](https://ragedesigner.com). The main repo [README](../../README.md) covers how this all fits together.
