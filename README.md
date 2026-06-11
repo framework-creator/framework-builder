@@ -71,7 +71,7 @@ The open source release is the architecture. The methodology is what fills it.
 
 ### A note on AI-generated frameworks
 
-Any AI using this skill file will produce frameworks based on its training data and whatever context you provide. The quality ceiling without the SIOS catalogs is the general knowledge of the model. The quality ceiling with the catalogs is the accumulated cross-domain intelligence of 600+ systematically built frameworks. Both are real. They are just different instruments.
+Any AI using this skill file will produce frameworks based on its training data and whatever context you provide. The quality ceiling without the SIOS catalogs is the general knowledge of the model. The quality ceiling with the catalogs is the accumulated cross-domain intelligence of 1,000+ systematically built frameworks. Both are real. They are just different instruments.
 
 ## What This Doesn't Cover
 
