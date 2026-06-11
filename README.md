@@ -61,17 +61,11 @@ What it does not include is the intelligence library that makes SIOS-quality fra
 
 **The Force Multiplier Catalog.** A force multiplier is the mechanism that makes a framework compound beyond its basic application. Generic force multipliers like "automation," "delegation," and "leverage" are easy to generate. The SIOS catalog contains specific, cross-domain sourced force multipliers with exact mechanisms, documented failure modes, and known interaction effects with other frameworks. When an AI generates a framework without this catalog, it defaults to general examples. When it uses the catalog, the force multipliers are precise, non-obvious, and systematically chosen.
 
-**The Breakthrough Pattern Library.** A library of documented patterns that identify when a situation is on the edge of a breakthrough. The signals, the conditions, the typical obstacles, and the moves that have worked historically across domains. Without this, frameworks can describe a process but cannot identify when the process is about to produce something exceptional.
-
-**The 343 Coordinate System.** Every framework in SIOS receives four coordinates before layer construction begins: primary meta-category, cognitive foundations activated, transformation pattern, and contextual triggers. These coordinates shape the framework's design from the start rather than being appended afterward. Without the 343 architecture, frameworks are freestanding. With it, every framework knows where it sits in a connected system of 1100+ others, and can activate the right neighbors automatically.
-
-**The Direction Transformer Catalog.** A systematic library of transformation patterns. The specific moves that convert one type of problem into a different type of solvable problem. Cross-domain transfer, constraint inversion, scale shift, perspective rotation. Without this catalog, frameworks tend to address problems directly. With it, they can first transform the problem into a form where existing solutions already exist.
-
 ### What this means in practice
 
 If you use the framework builder skill file to generate a five-layer framework, you will get a well-structured, agent-readable document with coherent principles, a systematic approach, and reasonable force multipliers. That is genuinely useful and significantly better than a prompt.
 
-If you generate the same framework using the full SIOS methodology, with the catalogs, the coordinate system, and the pattern library, the force multipliers will be specific mechanisms drawn from adjacent domains, the coordinates will connect the framework to the broader library, and the breakthrough patterns will make the framework aware of its own edge conditions.
+If you generate the same framework using the full SIOS methodology, the force multipliers will be specific mechanisms drawn from adjacent domains, chosen systematically rather than generated from general knowledge.
 
 The open source release is the architecture. The methodology is what fills it.
 
