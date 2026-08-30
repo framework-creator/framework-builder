@@ -4,6 +4,8 @@ A systematic methodology for building reusable, agent-readable frameworks from a
 
 Built by [Mike Goetz](https://ragedesigner.com). 1,000+ frameworks across industries since 2024.
 
+**Home:** [whereframeworks.com/skills/framework-builder](https://whereframeworks.com/skills/framework-builder). The skill lives there with install steps, an example of the output shape, and version history. Discover and fork it here on GitHub; the download page is home.
+
 ## What This Is
 
 A single `SKILL.md` file that teaches AI agents (and humans) how to build frameworks. It works in Claude Code, Claude Projects, Cursor, ChatGPT, Copilot, or any environment that supports skills or custom instructions.
