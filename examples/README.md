@@ -16,6 +16,9 @@ Converting limitations into competitive advantages. Validated across 145 studies
 **[Delegation Brief](example-delegation-brief-framework.md)**
 How to hand work to another person or an AI so it comes back right the first time. The framework the main README recommends starting with.
 
+**[Failure-Mode Completeness](example-failure-mode-completeness-framework.md)**
+Framework builders, operators, AI workflow designers. How to find the ways a process fails, including the ones that make no noise, with a stopping rule and a blind check.
+
 **[Film & Audio](film-audio/)**
 Audio Visual Production Intelligence for sound engineers, film professionals, and post-production teams. Includes machine-readable JSON companions.
 
