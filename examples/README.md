@@ -24,4 +24,4 @@ Audio Visual Production Intelligence for sound engineers, film professionals, an
 
 ---
 
-These examples span service operations, strategic thinking, innovation methodology, delegation, and creative production, among the most transferable domains in the library. The full framework catalog (1,000+) covers federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of additional industries. See [ragedesigner.com](https://ragedesigner.com) for advanced applications.
+These examples span service operations, strategic thinking, innovation methodology, delegation, and creative production, among the most transferable domains in the library. The full framework catalog (1,250+) covers federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of additional industries. See [ragedesigner.com](https://ragedesigner.com) for advanced applications.

@@ -2,7 +2,7 @@
   "framework_identity": {
     "author": "Mike Goetz / RageDesigner",
     "license": "MIT",
-    "source_library": "RageDesigner SIOS Framework Library (700+ frameworks)",
+    "source_library": "RageDesigner SIOS Framework Library (1,250+ frameworks)",
     "example_status": "Public example framework. One of several open-sourced from the RageDesigner library to demonstrate framework architecture for film, audio, and post-production work.",
     "learn_more": "https://whatisaframework.com"
   },

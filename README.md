@@ -2,7 +2,7 @@
 
 A systematic methodology for building reusable, agent-readable frameworks from any domain expertise.
 
-Built by [Mike Goetz](https://ragedesigner.com). 1,000+ frameworks across industries since 2024.
+Built by [Mike Goetz](https://ragedesigner.com). 1,250+ frameworks across industries since 2024.
 
 **Home:** [whereframeworks.com/skills/framework-builder](https://whereframeworks.com/skills/framework-builder). The skill lives there with install steps, an example of the output shape, and version history. Discover and fork it here on GitHub; the download page is home.
 
@@ -18,7 +18,7 @@ The AI ecosystem is converging on "skills" (markdown files that give AI context 
 
 This skill teaches the meta-methodology: how to generate frameworks across any domain. While everyone else is trading individual skills like baseball cards, this teaches you how to build the card factory.
 
-Built from experience creating 1,000+ frameworks across federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of other industries.
+Built from experience creating 1,250+ frameworks across federal contracting, sales methodology, medical advocacy, video production, content automation, and dozens of other industries.
 
 ## How to Use It
 
@@ -73,13 +73,13 @@ The open source release is the architecture. The methodology is what fills it.
 
 ### A note on AI-generated frameworks
 
-Any AI using this skill file will produce frameworks based on its training data and whatever context you provide. The quality ceiling without the SIOS catalogs is the general knowledge of the model. The quality ceiling with the catalogs is the accumulated cross-domain intelligence of 1,000+ systematically built frameworks. Both are real. They are just different instruments.
+Any AI using this skill file will produce frameworks based on its training data and whatever context you provide. The quality ceiling without the SIOS catalogs is the general knowledge of the model. The quality ceiling with the catalogs is the accumulated cross-domain intelligence of 1,250+ systematically built frameworks. Both are real. They are just different instruments.
 
 ## What This Doesn't Cover
 
 This is the foundational framework generation process. For the full ecosystem:
 
-- **Advanced multi-framework orchestration:** [ragedesigner.com](https://ragedesigner.com), Strategic consulting and the complete SIOS framework library (1,000+ frameworks)
+- **Advanced multi-framework orchestration:** [ragedesigner.com](https://ragedesigner.com), Strategic consulting and the complete SIOS framework library (1,250+ frameworks)
 - **Learn the methodology:** [howtoframework.com](https://howtoframework.com), Practical guides for building frameworks from your own domain expertise
 - **Understand what frameworks are:** [whatisaframework.com](https://whatisaframework.com), The foundational concepts behind systematic thinking
 - **Find frameworks by use case:** [whereframeworks.com](https://whereframeworks.com), Browse frameworks organized by industry and problem type
@@ -91,4 +91,4 @@ This is the foundational framework generation process. For the full ecosystem:
 
 ## About
 
-Mike Goetz is the founder of [RageDesigner](https://ragedesigner.com) (est. 2003) and creator of the Strategic Intelligence Operating System (SIOS). He has built 1,000+ frameworks across unlimited industries using this methodology since 2024. His work bridges the gap between academic research and practical business application through systematic framework generation.
+Mike Goetz is the founder of [RageDesigner](https://ragedesigner.com) (est. 2003) and creator of the Strategic Intelligence Operating System (SIOS). He has built 1,250+ frameworks across unlimited industries using this methodology since 2024. His work bridges the gap between academic research and practical business application through systematic framework generation.
