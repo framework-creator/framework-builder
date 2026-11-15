@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/business-strategy-framework
 
 **Multiplier 4: Put the filter in the proposal template.** Then anyone can say no, with the card in hand, without escalating.
 
+**Multiplier 5: Name the capability gap with an owner.** For each capability the strategy needs and you lack, assign a person and a date. Otherwise the gap stays a wish.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -70,3 +72,11 @@ Guide: https://howtoframework.com/business-strategy-framework
 **Edge case: a lucrative request outside your segments.** Put it on the "not now" list with a polite referral. If it keeps coming, treat it as evidence for a review, not an exception.
 
 **Edge case: a partner brings in off-strategy work.** Same filter, same rules. That is the point of using it publicly.
+
+**Common mistake: confusing goals with strategy.** "Grow revenue by 30%" tells you where to aim. It does not tell you which path to take or which to reject. Add the choices.
+
+**Common mistake: trying to serve everyone.** "Small business and mid-market and enterprise" is the absence of a strategy. It dilutes positioning, scatters resources and loses to rivals who chose one thing and committed.
+
+**Common mistake: setting strategy once a year.** An annual cycle assumes your assumptions hold for twelve months. Write the reassessment triggers into the framework, and review on the first Monday of each month.
+
+**Common mistake: letting the loudest voice drive direction.** Without a framework, the most confident person wins. Evaluate every proposal against the filter, including your own.

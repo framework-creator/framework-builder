@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/sales-framework
 
 **Multiplier 4: Build it with your top performers.** Watch them work and ask why they made each choice. Their embedded judgment is what the framework should capture.
 
+**Multiplier 5: Set rules by deal size.** Thresholds, such as two contacts above a deal size or approval above a discount level, give reps a clear rule to point to and give managers an easy exception to review.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -56,6 +58,8 @@ Guide: https://howtoframework.com/sales-framework
 - Objections are logged as "price" without a reason
 - Stages in the CRM do not match how buyers actually decide
 
+**Run a monthly win/loss review on the last ten closed deals.** Look at whether the framework was followed and where deviations lined up with outcomes. That evidence tells you what to change.
+
 ## Layer 5: Implementation Guidance
 
 **Roll out in three phases over about nine weeks.** Weeks 1 to 3: discovery and qualification only, with each rep recording their next five discovery calls. Weeks 4 to 6: add the mutual action plan and proposal standards. Weeks 7 to 9: add competitive positioning and negotiation. Expect full adoption around week twelve.
@@ -67,3 +71,11 @@ Guide: https://howtoframework.com/sales-framework
 **Edge case: a deal with one champion and a hidden decision-maker.** Make the second contact a condition of the proposal, and explain it as protecting their decision.
 
 **Edge case: the buyer asks for a demo on the first call.** Offer a short discovery first and promise the demo will be built around the answers.
+
+**Common mistake: building it without top performers.** A framework written by leadership describes how selling should work. Watch your best sellers, ask why they made each choice and capture that.
+
+**Common mistake: following your process instead of the buyer's.** Your stages describe your steps. Buyers recognize a need, evaluate, build consensus, secure budget and decide. If your stages do not map to that, they create friction.
+
+**Common mistake: handling objections as problems.** Treat each as information. A price objection may be a value-communication failure, a budget timing issue or a rival comparison, and each needs a different response.
+
+**Common mistake: never updating.** A framework built for the market of twelve months ago drifts. If win rates fall on deals that followed it, change the framework, not the reps.

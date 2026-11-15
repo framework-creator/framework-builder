@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/risk-management-framework
 
 **Multiplier 4: Look at the boundaries.** Review handoffs between teams and between your system and a vendor's. Cross-functional risks are the ones departmental reviews miss.
 
+**Multiplier 5: Pair every risk with a trigger.** Write the signal that starts the response, such as a notice period shortening or a terms change. A mitigation plan with no trigger waits for someone to remember it.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -56,6 +58,8 @@ Guide: https://howtoframework.com/risk-management-framework
 - A supplier change surprises you
 - Risk reviews happen inside departments only
 
+**Keep a near-miss log.** Record every case where a supplier change almost caused harm and was caught early. It proves the monitoring works and shows where it does not.
+
 ## Layer 5: Implementation Guidance
 
 **Phase one: the three highest-impact dependent functions.** Build the abstraction layer for them first. That creates the pattern the rest will copy.
@@ -69,3 +73,11 @@ Guide: https://howtoframework.com/risk-management-framework
 **Edge case: you cannot reduce a dependency soon.** Shorten response time instead. Pre-build the workaround, rehearse it and set a trigger for when to start it.
 
 **Edge case: a risk reporter is blamed.** Fix it publicly and immediately. It is the fastest way to lose the whole system.
+
+**Common mistake: risk lists without owners.** A comprehensive register with severity ratings and no owner, action or deadline creates the feeling of control without any of the substance. Reject entries that lack all three.
+
+**Common mistake: assessing risks in isolation.** Departmental reviews catch departmental risks and miss the ones at the boundaries, such as handoffs between teams or the dependency between your system and a vendor's. Review the intersections explicitly.
+
+**Common mistake: leaving velocity out.** Probability and impact alone tell you what could happen, not whether you can respond in time. Score how fast each risk would arrive and plan for the quick version.
+
+**Common mistake: making reporting unsafe.** If whoever raises a risk is labeled negative or handed the whole fix, reports stop and leaders lose sight of the problems they most need to see.

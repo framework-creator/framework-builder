@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/project-management-framework
 
 **Multiplier 4: Leading indicators.** How long blockers stay open, how fast open decisions close and how many items wait on an outside party.
 
+**Multiplier 5: Rename the work, not the team.** Use plain category names, quick-turn, standard and complex, so clients and new staff understand the routing without learning a methodology.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -70,3 +72,11 @@ Guide: https://howtoframework.com/project-management-framework
 **Edge case: a one-person project.** Keep the intake, the decision log and the retrospective. Drop everything else.
 
 **Edge case: a client who disappears for weeks.** Log the waiting items, apply the client-dependency multiplier and agree on a decision deadline.
+
+**Common mistake: adopting a method as an identity.** "We are an Agile shop" turns a tool into a culture. Both rigid Agile and rigid Waterfall stop the team choosing the right approach for the project. Make method selection a conscious choice at intake.
+
+**Common mistake: inverted precision.** Teams often plan uncertain work in great detail and known work barely at all. Plan in detail where the path is clear, and plan lightly with discovery loops where it is not.
+
+**Common mistake: milestones as the only health signal.** A milestone slip is a problem weeks old. Watch blockers, open decisions and outside dependencies while you can still act.
+
+**Common mistake: retros that change nothing.** After two or three of them the team stops being honest. Commit to implementing at least one change before the next one.

@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/ai-prompt-framework
 
 **Multiplier 4: Keep prompts short and specific.** A 200-word prompt with clear constraints usually beats a 1,000-word one with elaborate role-play.
 
+**Multiplier 5: Blind-rate outputs across people.** Have the team lead rate drafts from different writers without names. The spread between the best and worst writer shows whether the templates are carrying the quality or the individual is.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -67,3 +69,15 @@ Guide: https://howtoframework.com/ai-prompt-framework
 **Edge case: a task with no template.** Write it from scratch once, score it, and add it if it works.
 
 **Edge case: the model changes.** Rerun a fixed set of test prompts and rubric scores before updating templates. Revise only where scores drop.
+
+**Common mistake: over-engineering prompts.** A short prompt with clear constraints often beats a long one built on role-play and multi-step reasoning chains. Complexity adds failure points, not quality.
+
+**Common mistake: judging output by gut feel.** "This seems good" cannot be improved on. Score against criteria: tone match, required elements, length and accuracy.
+
+**Common mistake: sharing prompts without the reasoning.** Someone facing a task that does not quite fit the template cannot adapt it without knowing why it is built that way. Put a short design note on every template.
+
+**Common mistake: building around one model version.** Frameworks tied to a version's quirks break at the next update. Build on context, constraints, format and examples.
+
+**Common mistake: no owner for the library.** Templates decay when no one maintains them. Name one person to review scores weekly, retire weak templates and add new ones that pass the rubric.
+
+**Edge case: junior staff getting worse results.** Check the template and the reference example before the person. If the senior writer's output is consistently good, capture their exact context block and reference paragraphs in the template.

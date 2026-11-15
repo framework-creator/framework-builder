@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/problem-solving-framework
 
 **Multiplier 4: Use the escape hatch.** If testing a plausible cause takes thirty minutes, try it before building a three-day analysis.
 
+**Multiplier 5: Record what you ruled out.** Alongside the chosen cause, write the causes you considered and the evidence that excluded them. The next investigator will not repeat the work.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -69,3 +71,11 @@ Guide: https://howtoframework.com/problem-solving-framework
 **Edge case: no data at all.** Run five structured interviews before choosing a direction, and record the questions so they can be reused.
 
 **Edge case: two plausible causes, one cheap test.** Test the cheap one first and write down the result either way.
+
+**Common mistake: jumping to solutions.** Proposing fixes in the first meeting feels like action and often addresses the wrong thing. Hold the diagnosis block of time before any fix is discussed.
+
+**Common mistake: treating every problem as unique.** Roughly 70% of problems in any domain are variations of ones you have seen. Without a pattern library, you pay the discovery cost every time.
+
+**Common mistake: no definition of "solved."** If you cannot say what metric should change, by how much and by when, the work never closes and you cannot tell when you failed.
+
+**Common mistake: over-investing in analysis.** When two plausible causes exist and one test is cheap, run the test. Keep the escape hatch in the framework, and use it on purpose.

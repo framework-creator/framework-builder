@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/competitive-analysis-framework
 
 **Multiplier 4: The one-sentence test.** Every team member states your differentiation in one sentence without preparing.
 
+**Multiplier 5: Separate the rival from the buyer's alternative.** A buyer may be choosing between you and doing nothing, or an in-house hire. Map those alternatives with the same care as named competitors.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -69,3 +71,11 @@ Guide: https://howtoframework.com/competitive-analysis-framework
 **Edge case: two rivals move up-market together.** The pressure on your mid-market position changes even if neither targets you. Redraw the map.
 
 **Edge case: a new entrant with a much lower price.** Check whether it serves your buyers at all before reacting. Move on price only if your positioning cannot answer it.
+
+**Common mistake: tracking features instead of positioning.** A feature spreadsheet pushes you toward parity and makes the whole market look alike. Track perception instead: what each rival is known for and where it cannot credibly compete.
+
+**Common mistake: analyzing each competitor alone.** Two rivals moving up-market at once changes the pressure on your position even if neither aims at you. Map the whole landscape and note how one move changes everyone's options.
+
+**Common mistake: treating analysis as a project.** An analysis written in January is history by March. If it has a completion date, it is already broken. Run it as a monthly brief and a quarterly deep review.
+
+**Common mistake: studying rivals more than buyers.** Ten buyer conversations about the alternatives they considered are worth more than a hundred hours on rival websites. Watch the ratio.

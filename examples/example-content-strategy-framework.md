@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/content-strategy-framework
 
 **Multiplier 4: Refresh on a schedule.** Updating your top twenty pieces often returns more than twenty new ones.
 
+**Multiplier 5: Write to the persona and the stage.** For each piece, name who it is for and where they are in the evaluation. A technical evaluator needs architecture and integration detail. A business decision-maker needs return and comparison. An end user needs a workflow tutorial.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -56,6 +58,8 @@ Guide: https://howtoframework.com/content-strategy-framework
 - Top pieces slip down the rankings and nobody notices
 - New posts do not link to any cluster
 
+**Set the three metric tiers before publishing.** Weekly leading signals, monthly business signals and quarterly trailing results. Without them you cannot tell which cluster is working.
+
 ## Layer 5: Implementation Guidance
 
 **Month one:** refresh the top twelve posts with links and calls to action, and build the first cluster.
@@ -69,3 +73,13 @@ Guide: https://howtoframework.com/content-strategy-framework
 **Edge case: no sales team to ask.** Use support tickets, sales-call recordings or buyer interviews to list the real questions.
 
 **Edge case: a topic with little search volume.** If buyers ask it during evaluation, build it anyway and distribute it directly.
+
+**Common mistake: publishing without a topic architecture.** Random posts never compound into authority. Without clusters, pillar pages and supporting pieces, each piece starts from zero.
+
+**Common mistake: optimizing for volume.** Ten thorough pieces that cover one topic outperform hundreds of shallow ones spread across many. Volume is a vanity metric. Coverage depth builds authority.
+
+**Common mistake: writing for search engines first.** Content built to rank and not to help creates a leaky funnel. Visitors see it, lose trust and leave.
+
+**Common mistake: treating content as a campaign.** Campaigns end and assets compound. If most of your content has an expiry date, you are on a treadmill and must keep publishing to hold the same traffic.
+
+**Common mistake: never updating.** Content decay stays invisible until the traffic cliff. Every piece is gaining or losing value, so put refreshes on the calendar.

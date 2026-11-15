@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/quality-control-framework
 
 **Multiplier 4: Fix the process, not the inspection.** Before adding a review step, ask what created the defect. A fixed process needs fewer inspections.
 
+**Multiplier 5: Two lanes, not one.** Keep the lightweight path genuinely light. If every maintenance task needs the full path, people will route around the system. Reserve structured review and client preview for new builds.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -56,6 +58,8 @@ Guide: https://howtoframework.com/quality-control-framework
 - Every defect ends with a person being named
 - New inspection steps keep appearing without a change in defect type
 
+**Make each phase small enough to finish.** A team that feels overwhelmed abandons the framework. Each phase should leave something working that the next one builds on.
+
 ## Layer 5: Implementation Guidance
 
 **Roll out in three phases over about 90 days.** Weeks 1 to 2: write definitions of done for the three most common project types and automate the checks. Weeks 3 to 6: formalize the review template and start tracking the four metrics. Weeks 7 to 12: begin root-cause reviews and hold the first monthly quality review against baseline data.
@@ -67,3 +71,11 @@ Guide: https://howtoframework.com/quality-control-framework
 **Edge case: a deadline collides with review.** Shorten the scope of work, not the review. If the review must be reduced, record the exception and the owner of the risk.
 
 **Edge case: a senior person resists review.** Apply the rule to everyone, and let the checklist, not the reviewer, carry the standard.
+
+**Common mistake: quality as someone else's job.** When a separate team catches the problems after the work is done, makers stop thinking about quality. Keep ownership with the people creating the work.
+
+**Common mistake: defining quality subjectively.** "I'll know it when I see it" is a guess. Every work type needs a written definition of done with measurable criteria, or quality varies by person and mood.
+
+**Common mistake: adding inspection instead of fixing the process.** Another review step catches the same defects in a different place and adds cost and time. Change what produces the defect and you need fewer checks.
+
+**Common mistake: holding individuals accountable for systemic failures.** If the process allowed the mistake, the process is the problem. Blame creates fear, and fear hides problems until they become catastrophic.

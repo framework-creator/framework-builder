@@ -41,6 +41,8 @@ Guide: https://howtoframework.com/marketing-campaign-framework
 
 **Multiplier 4: A playbook from the first three months.** It becomes the template for the next channel.
 
+**Multiplier 5: Pair each campaign with the same landing promise.** The page a click lands on repeats the ad's exact promise and shows the phone number first. A mismatch between ad and page wastes the click you paid for.
+
 ## Layer 4: Success Metrics
 
 **Positive indicators:**
@@ -56,6 +58,8 @@ Guide: https://howtoframework.com/marketing-campaign-framework
 - No one can say what the last campaign was meant to prove
 - Post-mortems are skipped
 
+**Rotate creative on evidence.** Compare the cost per call of any ad running for thirty days against its first week. Replace it when the cost has climbed more than 25%, and keep the old version in the playbook.
+
 ## Layer 5: Implementation Guidance
 
 **Begin with emergency service on one search channel.** It has the highest intent and the quickest feedback.
@@ -69,3 +73,13 @@ Guide: https://howtoframework.com/marketing-campaign-framework
 **Edge case: call volume is high and appointments are low.** The problem is in call handling or scheduling, not the ad. Check answer speed and scripts.
 
 **Edge case: a competitor floods your keywords in peak season.** Shift budget to the maintenance path and to listings and referrals until their spend drops.
+
+**Common mistake: running campaigns with no hypothesis.** Without something testable, such as "homeowners will respond more to upfront pricing than to speed," you cannot learn from a result.
+
+**Common mistake: vanity metrics.** A campaign with 100,000 impressions and no customers has failed. Anchor every report to cost per acquisition and return on spend. The rest is context.
+
+**Common mistake: launching on several channels at once.** Spreading budget before one channel is proven is how budgets disappear. Get a baseline cost per acquisition first, then expand and compare.
+
+**Common mistake: skipping post-mortems.** Without them each campaign team repeats the last team's mistakes, such as not knowing video beat static images last quarter. A post-mortem turns one result into organizational memory.
+
+**Edge case: a seasonal spike you did not plan for.** Pause the maintenance path, move budget to the emergency path and keep call tracking on, then log what the spike taught you for next season's plan.

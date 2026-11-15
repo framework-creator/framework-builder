@@ -69,3 +69,9 @@ Guide: https://howtoframework.com/decision-making-framework
 **Edge case: two owners disagree.** Escalate one level with both written assessments attached. Do not merge the two positions into a compromise nobody wanted.
 
 **Edge case: new information after the decision.** Reopen only if it would have changed the outcome under the original criteria. Otherwise log it and move on.
+
+**Common mistake: measuring outcomes without measuring process.** If you track only results, you cannot tell good judgment from good luck. Log whether the framework was followed and whether the right inputs were gathered. Those are the leading indicators of decision quality over time.
+
+**Common mistake: designing for the average case.** Most frameworks work on straightforward decisions and fail when ambiguity arrives. Write the hard cases into the framework first: conflicting data, time pressure, incomplete information and stakeholder disagreement.
+
+**Common mistake: skipping the disagreement step.** Teams that skip it decide faster and measurably worse. The discomfort of structured disagreement is the price of better outcomes, so keep the step even when the room is confident.
