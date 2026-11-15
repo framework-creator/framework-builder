@@ -19,6 +19,9 @@ How to hand work to another person or an AI so it comes back right the first tim
 **[Failure-Mode Completeness](example-failure-mode-completeness-framework.md)**
 Framework builders, operators, AI workflow designers. How to find the ways a process fails, including the ones that make no noise, with a stopping rule and a blind check.
 
+**[Pricing](example-pricing-framework.md)**
+How to set prices from the value delivered instead of costs or competitor numbers: segment routing, tiers and anchoring, and the metrics that show whether it works. [Guide](https://howtoframework.com/pricing-framework) | [Page](https://whereframeworks.com/frameworks/pricing)
+
 **[Film & Audio](film-audio/)**
 Audio Visual Production Intelligence for sound engineers, film professionals, and post-production teams. Includes machine-readable JSON companions.
 
