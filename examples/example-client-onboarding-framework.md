@@ -2,6 +2,9 @@
 
 *This framework was generated using the Framework Builder methodology. It demonstrates the five-layer DNA architecture applied to client onboarding for service businesses.*
 
+Page: https://whereframeworks.com/frameworks/client-onboarding
+Guide: https://howtoframework.com/client-onboarding-framework
+
 ---
 
 ## Layer 1: Principles Foundation
